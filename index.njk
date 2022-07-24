@@ -1,20 +1,14 @@
 ---
 layout: layouts/home.njk
 ---
-{# pagination:
-  size: 1
-  alias: page #}
-{# eleventyNavigation:
-  key: Home
-  order: 1 #}
 
 <section class="landingHead">
 <div>
-<h2 class="landingTitle">Michael Gilligan’s Design Portfolio of Work</h2>
-<p class="landingSubTitle">Created During My Time at Manchester
+<h2 class="landingTitle">MICHAEL GILLIGAN DESIGN ENGINEERING PORTFOLIO</h2>
+{# <p class="landingSubTitle">Created During My Time at Manchester
 Metropolitan University 2019-2022
 
-Design Engineering BSc</p>
+Design Engineering BSc</p> #}
 </div>
 </section>
 <section class="intro">
@@ -35,19 +29,17 @@ you may have as a reader.
    <li> <a href = "mailto: michaelgilligan@gmail.co.uk">michaelgilligan@gmail.co.uk</a></li>
    <li><a href = "mailto: michaelgilligan@gmail.co.uk">Linkedin: Michael Gilligan</a></li>  
 </ul>
+
+<img src="./img/pic.png" class="me"  />
 </section>
 
-{# <section class="neonSection">
-<p class="neon">
-Welcome
-</p>
-</section>  #}
 
-<main class="blog-section-container">
+
+
+{# <main class="blog-section-container">
 <section class="blog-content">
  <li class="blog">
  {% set maxPosts = collections.resource.length | min(6) %} 
-{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
 
  {% set resourcelist = collections.resource | head(-4) %}
 
@@ -66,7 +58,6 @@ Welcome
 </section>
 <li class="apprentice-blog">
  {% set maxPosts = collections.posts.length | min(4) %}
-{# <h1>Latest {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</h1> #}
 
 {% set postslist = collections.posts | head(-4) %}
 {% set postslistCounter = collections.posts | length %}
@@ -76,8 +67,4 @@ Welcome
 </li>
 </section>
 
-
-
-
-
-</main>
+</main> #}
