@@ -4,7 +4,7 @@ description: Getting started is the first and most important part of becoming a 
 # date: 2018-07-04
 tags:
  resource
-layout: layouts/post.njk
+layout: layouts/projects.njk
 ---
 
 Getting started is the first and most important part of becoming a Software Engineer. Spending time writing coding is the best way to learn but it's not always easy to know where to start. 

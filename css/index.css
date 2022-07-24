@@ -3,6 +3,7 @@
   --lightgray: #e0e0e0;
   --white: #fff;
   --black: #222222;
+  --grey: #9b9b9b;
 }
 
 /* Global stylesheet */
@@ -145,14 +146,15 @@ code {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  justify-content: center;
 }
 
 .landingTitle {
   color: var(--black);
   font-weight: 600;
   font-size: 4em;
-  padding-bottom: 25px;
   text-transform: uppercase;
+  width: 80%;
 }
 .landingSubTitle {
   color: var(--black);
@@ -171,11 +173,53 @@ code {
 .blurb {
   padding-left: 5%;
   padding-right: 5%;
+  width: 80%;
+  color: var(--grey);
 }
 
 .me {
   max-width: 150px;
   height: auto;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: var(--black);
+  border: none;
+  color: #ffffff;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: "\00bb";
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
 }
 
 .contact {
@@ -201,14 +245,17 @@ code {
   margin-right: 20px;
 }
 
-.apprentice-section {
-  display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
-  align-content: stretch;
+.project-image-container {
+  display: inline-flex;
   justify-content: space-around;
-  align-items: flex-end;
+  width: 80%;
 }
+
+.project-image {
+  width: 30%;
+  height: auto;
+}
+
 .tag-section h1 {
   display: flex;
   justify-content: flex-end;
@@ -393,7 +440,7 @@ textarea {
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .me {
     width: 35%;
     height: auto;
@@ -446,4 +493,4 @@ textarea {
   form textarea {
     width: 25vh;
   }
-} ;
+} ; */
