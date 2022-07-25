@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 The premise for this assignment to assume we are a freelance design engineer and a engineering firm in the city of Manchester is designing a new engineering building, in this building they want to have a ventilation system that uses fresh air from the outside while also expelling air out of the building. The starting point is to look at the secondary research and look  into existing designs that use this process already, furthermore research will be done into the materials used for each component that creates the fan, the manufacturing, and the mechanical properties of the product. The brief also set 6 main requirements that the product should stick too.
 
 <div class="project-image-container-many">

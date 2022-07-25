@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 This was my individual engineering project that I undertook in the 2nd half of my final year. the title we were given for this was that it had to fall in the category of 'engineering materials & manufacturing'. After some deliberation I concluded that I would change the materials of an existing product and test the original product and the new products and see if the new products could perform the same and try and find a way to save money and a potentially more environmentally friendly way of producing the product.
 
 <div class="project-image-container">

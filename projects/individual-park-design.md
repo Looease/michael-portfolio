@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 During this project we were split in teams of 3 or 4 members to create an electrical park. the premise was that the park would be able to be controlled through an app downloaded on the phone and it would be able to connect remotely to the objects built for the park. the group aspect was so that in the end we could piece all of parts together and create one big park, this meant that before going into the creation a theme of the park would be chosen so we were not making parts that would not match together, the theme of our park was that it would be jungle themed so the main colours of the par would be green, brown and tan, this decision was made as most parks are found in green areas and we thought as a team this would blend in well with the natural surroundings whilst also being enjoyable for the users of the park.
 
 <div class="project-image-container-many">

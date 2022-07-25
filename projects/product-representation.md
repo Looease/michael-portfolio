@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 During the pandemic university was shut down and towards the end of our 1st year we were due to measure up a product that could be found in the workshop and then recreate this product on a 1:1 scale on solidworks. Due to the pandemic this was not possible and the brief was altered slightly so that it would then be a product that is either something in our home or something that we may use on a daily basis.s
 
 <div class="project-image-container">

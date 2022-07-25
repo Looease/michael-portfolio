@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 At university we were once again to assume the role of a freelance design engineer and a manufacturer of outdoor equipment wishes to investigate the possibility of a hiking micro generator a small electricity generating device that will provide sufficient electrical current to charge small portable devices such as phones, cameras, and torches. The requirement is that the product can be worn by a hiker in the wilderness and the action of walking generates the power. the design of the product from the way it looks to materials being used is entirely up to the design engineer, but should look for a durable and lightweight material as it will be carried over long distances and does not want to become strenuous on the user.
 
 <div class="project-image-container">

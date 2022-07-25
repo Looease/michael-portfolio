@@ -6,6 +6,16 @@ tags:
  posts
 layout: layouts/projects.njk
 ---
+
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 The company came to the university with a proposal on a product they had and changes that could potentially be made to the product. The product itself was a handheld vacuum that is used to pick up rubbish from the floor in areas that a normal vacuum may not be able to reach such as a car or on a work site, but could also be used in household as a normal vacuum could be.
 
 <div class="project-image-container">

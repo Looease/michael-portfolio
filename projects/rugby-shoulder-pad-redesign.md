@@ -7,6 +7,15 @@ tags:
 layout: layouts/projects.njk
 ---
 
+<style>
+    @media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
+
+}
+</style>
+
 This task took place towards the end of my 2nd year of university where we were tasked that if no restrictions were placed on the requirements for rugby shoulder pads what would the potential design look like and would it be able to prevent or stop injuries from happening altogether. As this was a task to re-create an entire product through the whole cycle this was deemed as a group project, and everyone was put in too groups of 5. This whole project required collaboration from everyone and being able to work in a team to come up with a solution to the question.
 
 <div class="project-image-container-many">

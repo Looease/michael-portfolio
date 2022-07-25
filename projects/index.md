@@ -64,6 +64,13 @@ color: #999999;
     display:none;
    }
 
+   .image-container{
+    width: 70%;
+   }
+   .image-link{
+    width: 100%;
+   }
+
 }
 
 </style>

@@ -461,6 +461,9 @@ a[href].direct-link:focus:visited,
 }
 
 @media screen and (max-width: 800px) {
+  main {
+    padding: 10px;
+  }
   .landingTitle {
     font-size: 1.7em;
     text-transform: uppercase;
