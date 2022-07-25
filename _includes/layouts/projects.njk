@@ -1,9 +1,81 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
+templateClass: tmpl-home
 tags: projects
 ---
+
+<style>
+
+.posts{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.project-link{
+    list-style: none;
+    color: #999999;
+
+}
+
+a{
+text-decoration: none;
+color: #999999;
+
+}
+a:visited {
+color: #999999;
+}
+
+a:hover {
+color: #999999;
+}
+
+a:active {
+color: #999999;
+}
+
+.project-link{
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.image-container{
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.image-link {
+   float: left;
+    width:  300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 1%;
+}
+
+</style>
+
+
 <main class="posts">
+
+<ul class="links">
+<li class="project-link"><a href="/">Home</a></li>
+<li class="project-link"><a href="/projects">Work</a></li>
+<li class="project-link"><a href="/projects/bracket-redesign">Bracket Re-Design</a></li>
+<li class="project-link"><a href="/projects/individual-park-design">Individual Park Design</a></li>
+<li class="project-link"><a href="/projects/black-and-decker-vaccum-redesign">Black & Decker Vaccum Re-Design</a></li>
+<li class="project-link"><a href="/projects/gresham-furniture-design">Gresham Furniture Design</a></li>
+<li class="project-link"><a href="/projects/rugby-shoulder-pad-redesign">Rugby Shoulder Pad Re-Design</a></li>
+<li class="project-link"><a href="/projects/ventilation-fan-design">Ventilation Fan Design</a></li>
+<li class="project-link"><a href="/projects/hiking-micro-generator">Hiking Micro Generator</a></li>
+<li class="project-link"><a href="/projects/product-representation">Product Representation</a></li>
+<li class="project-link"><a href="/projects/face-mask-design">Face Mask Design</a></li>
+
+</ul>
+
 <ul class="markDowns">
 <h2>{{ title }}</h2>
 
@@ -25,3 +97,4 @@ tags: projects
 {%- endif %}
 </ul>
 </main>
+

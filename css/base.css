@@ -42,6 +42,7 @@ header:after {
 .nav-item {
   display: inline-block;
   margin-right: 1em;
+  color: var(--white);
 }
 .nav-item a[href]:not(:hover) {
   text-decoration: none;
@@ -111,7 +112,7 @@ footer ul li {
 }
 @media screen and (max-width: 500px) {
   .logo {
-    font-size: 1.8em;
+    font-size: 1em;
   }
   .hideMe {
     display: none;

@@ -9,9 +9,9 @@ layout: layouts/projects.njk
 
 For this project we were to assume the role of a freelance design engineer and have been informed that the new science block for Manchester metropolitan university (mmu) will have an open space where the students can relax during time between lectures or for just a study space that offers alternatives to the library and similar study spaces. This area will require functional seating that will suit the building and will also offer use for independent study or can have a feel of connection to other members of the university making it a joint study space. Gresham Office Furniture are creating the furniture and want to see what is on offer and potentially take the designs into the open space.
 
-<div class="project-image-container">
-<img src="../../img/projects/GreshamChairFinalRender.png" class="project-image" />
-<img src="../../img/projects/GreshamChairDesign.png" class="project-image"  />
+<div class="project-image-container-many">
+<img src="../../img/projects/GreshamChairFinalRender.png" class="project-image-many" />
+<img src="../../img/projects/GreshamChairDesign.jpg" class="project-image-many"  />
 </div>
 
 

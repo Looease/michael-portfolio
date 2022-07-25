@@ -9,9 +9,9 @@ layout: layouts/projects.njk
 
 The purpose of this project was to evaluate a face shield design with one or more mechanical mechanism. Research was done into trends to with the face shield, such as existing products and current trends. This was time relevant as this was during the pandemic and it was not known at that point how long we would have to live with masks in the everyday use so new solutions were looked at so that if the face masks were continued to be used then new solutions suited to everyone's needs would be available.
 
-<div class="project-image-container">
-<img src="../../img/projects/FaceMaskDesign.png" class="project-image" />
-<img src="../../img/projects/FaceMaskDrawing.png" class="project-image"  />
+<div class="project-image-container-many">
+<img src="../../img/projects/FaceMaskDesign.png" class="project-image-many" />
+<img src="../../img/projects/FaceMaskDrawing.png" class="project-image-many"  />
 </div>
 
 
