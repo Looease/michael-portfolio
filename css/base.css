@@ -95,6 +95,13 @@ footer ul li {
 }
 
 @media screen and (max-width: 915px) {
+  main {
+    height: 150vh;
+  }
+  footer {
+    position: relative;
+    top: 10%;
+  }
   .logo {
     display: flex;
     font-size: 1em;

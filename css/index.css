@@ -460,38 +460,6 @@ a[href].direct-link:focus:visited,
   }
 }
 
-/*Form*/
-.formContainer {
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-}
-form {
-  border: solid 2px black;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 33%;
-  border-radius: 30px;
-}
-form input {
-  width: 40vh;
-  height: 30px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
-textarea {
-  padding: 0px;
-  width: 40vh;
-  margin-bottom: 10px;
-  height: 100px;
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-}
 @media screen and (max-width: 800px) {
   .landingTitle {
     font-size: 1.7em;
@@ -516,6 +484,9 @@ textarea {
   }
 }
 @media screen and (max-width: 615px) {
+  main {
+    height: 150vh;
+  }
   .container {
     padding: 0;
     display: flex;

@@ -4,7 +4,7 @@ eleventyNavigation:
   key: Home
   order: 1
 ---
-
+<main>
 <div class="landingHead">
 
 <h2 class="landingTitle">MICHAEL GILLIGAN DESIGN ENGINEERING PORTFOLIO</h2>
@@ -27,38 +27,4 @@ Design Engineering BSc</p> #}
 <img src="./img/pic.png" class="me"  />
 </div>
 
-
-
-
-{# <main class="blog-section-container">
-<section class="blog-content">
- <li class="blog">
- {% set maxPosts = collections.resource.length | min(6) %} 
-
- {% set resourcelist = collections.resource | head(-4) %}
-
-{% set resourcelistCounter = collections.resources | length %}
-{% include "resourcelist.njk" %}
-
-</li> 
-</section>
-
-<section class="apprentice-section">
-<section class="tag-section">
-{% for tag in collections.tagList | filterTagList %}
-  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
-{% endfor %}
-</section>
-<li class="apprentice-blog">
- {% set maxPosts = collections.posts.length | min(4) %}
-
-{% set postslist = collections.posts | head(-4) %}
-{% set postslistCounter = collections.posts | length %}
-{% include "postslist.njk" %}
-
-<p>More posts can be found in <a href="{{ '/posts/' | url }}">the apprenticeship section</a>.</p>
-</li>
-</section>
-
-</main> #}
+</main>

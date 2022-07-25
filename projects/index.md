@@ -59,11 +59,16 @@ color: #999999;
     padding: 1%;
 }
 
+@media screen and (max-width: 915px) {
+   footer{
+    display:none;
+   }
 
+}
 
 </style>
  
-<main class="container"> 
+<main class="container" id="container"> 
 
 <div class="link-container">
 <ul class="links">
